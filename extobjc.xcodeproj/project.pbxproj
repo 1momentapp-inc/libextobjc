@@ -660,7 +660,6 @@
 				GCC_PREFIX_HEADER = extobjc/extobjc_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = extobjc_OSX;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -671,7 +670,6 @@
 				GCC_PREFIX_HEADER = extobjc/extobjc_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = extobjc_OSX;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -687,8 +685,6 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = YES;
@@ -714,7 +710,6 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = YES;
@@ -761,7 +756,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jspahrsummers.libextobjc.tests;
 				PRODUCT_NAME = "Logic Tests";
-				SDKROOT = macosx;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -782,7 +776,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jspahrsummers.libextobjc.tests;
 				PRODUCT_NAME = "Logic Tests";
-				SDKROOT = macosx;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -807,7 +800,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jspahrsummers.libextobjc.tests;
 				PRODUCT_NAME = "iOS Tests";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -831,7 +823,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jspahrsummers.libextobjc.tests;
 				PRODUCT_NAME = "iOS Tests";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
